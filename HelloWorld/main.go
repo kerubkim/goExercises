@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World")
+	var person string
+	fmt.Print("Enter a name : ") // ask client for a number
+	fmt.Scan(&person)               // save the input number into the variable "num"
+	fmt.Println("Hello ",person)
 }
